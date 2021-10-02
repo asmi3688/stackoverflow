@@ -1,0 +1,35 @@
+.topTagBox{
+    margin-top:50px
+}
+.topTagBoxTitle{
+    border-bottom: 1px solid rgb(241 242 243);
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+.tabPanel{
+    background:#F8F9F9;
+    margin-top:10px;
+    padding:8px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+.tabPanel2{
+    width: 55px
+}
+.tagPanelPill{
+    background:#E1ECF4;
+    color:#39739D;
+    margin:2px 2px 2px 0px;
+    padding: 7px 9px;
+    font-size: 19px;
+    border-radius: 3px;
+}
+.tabPanel1{
+    padding: 10px 10px;
+}
+.badge2{
+    margin-top: 20px;
+}
+.scoreTab{
+    margin-top:25px
+}

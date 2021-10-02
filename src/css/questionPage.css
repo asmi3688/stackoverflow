@@ -1,0 +1,52 @@
+.sidebar{
+    background:white;
+    height:735px;
+    padding-top:25px;
+    padding-right: 0;
+    border-right: 1px solid rgb(241 242 243);
+    position:fix
+}
+.aside{
+    background: lightgreen;
+}
+.sidebarMenu{
+    height: 400px;
+    padding-right: 0;
+    padding-left: 0;
+}
+.menuTitle{
+    color: rgb(106 115 124) !important;  
+    font-size: 11px !important;  
+}
+.inActive:hover{
+    background: white!important;
+    cursor:text
+}
+.active{
+    font-weight: bold;
+    background: rgb(241 242 243);
+    color: rgb(12 13 14);
+    border-right: 3px solid rgb(244 130 37)
+}
+.subMenu{
+    list-style: none;   
+}
+.subMenu li a{
+    color: rgb(106 115 124) !important;
+    display: flex;
+    padding: 8px 6px 8px 0;
+    text-decoration: none;
+}
+.subMenu li a:hover{
+    color: rgb(82 89 96)!important;
+}
+.pageTitle{
+    font-size: 33px;
+    font-weight: 500;
+}
+.subPills{
+    border:1px solid rgb(159 166 173);
+    margin:0!important;
+    padding:0!important;
+    list-style:none!important;
+}

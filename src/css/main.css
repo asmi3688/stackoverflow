@@ -1,0 +1,125 @@
+.mainHeader{
+    height:150px;
+    padding-left: 0!important;   
+}
+.questionPanel{
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+.questionTab{
+    border-bottom: 1px solid rgb(241 242 243);
+}
+.mainBox{
+    padding-left: 0!important;   
+}
+.main{
+    min-height: 750px;
+    padding-left: 0!important;
+    float: right;
+}
+.mainLeft{
+    padding:20px 20px
+}
+.mainRight{
+    padding-top:20px;
+    text-align: right;
+    padding-right: 0!important;
+}
+.tabs{
+    text-align: right!important;
+    margin-left: auto;
+    border-radius: 5px;
+    width: fit-content;
+}
+.tabs a{
+    color: rgb(159 166 173) !important;
+}
+.pills{
+    padding-right: 0!important; 
+    margin-bottom: 20px; 
+}
+.activePill:hover{
+    background:rgb(235, 234, 231)
+}
+.countBtn{
+    font-size: 10px;
+    padding-top: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 1px;
+    border-color: #337ab7!important;
+}
+.questionPill{
+    font-size: 10px;
+    padding-top: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 1px;
+    background:#E1ECF4;
+    color: #39739D;
+    margin-right: 5px;
+}
+.questionBox{
+    border-bottom: 1px solid rgb(241 242 243);
+    height:auto;
+    padding:15px 15px;
+}
+.noPadding{
+    padding:0!important;
+}
+.textCenter{
+    text-align: center;
+}
+.countBox{
+    font-size: 11px;
+    width:55px;
+    text-align: center;
+    padding: 5px 10px;
+}
+.countValue{
+    font-size: 17px;
+    color: #838C95;
+}
+.greenBox{
+    border:1px solid #48A868;
+    color: #48A868;
+    border-radius: 3px; 
+}
+.green{
+    color: #48A868!important;
+}
+.countTitle{
+    color: #838C95;
+}
+.questionText{
+    word-break: break-all;
+    margin-bottom: 5px;
+    color: #0063BF;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.answerTime{
+    font-weight: 400;
+    color:#9199A1;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.owner{
+    font-weight: 400;
+    color: #0074CC;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.score{
+    font-weight: 400;
+    font-size: 12px;
+    color: #838C95;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.time{
+    text-align: end;
+}
+.questionLink:hover{
+    color:#007bff;
+    text-decoration: none;
+}

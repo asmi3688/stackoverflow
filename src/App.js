@@ -1,23 +1,28 @@
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useHistory
+} from "react-router-dom";
 
-function App() {
+import Questions from "./components/Questions"
+import Login from "./components/Login"
+import "./css/loginPage.css"
+import "./App.css"
+import UserProfile from "./components/UserProfile";
+
+export default function App() {
+  let history = useHistory();
   return (
-    <div className="App">
-      <header className="App-header">       
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+           <div className="App">           
+            <Switch>
+              <Route exact path='/' component={Login} history={history}></Route>
+              <Route exact path='/questions' component={Questions} history={history}></Route>
+              <Route exact path='/profile/:userId' component={UserProfile} history={history}></Route>
+            </Switch>
+          </div>
+       </Router>
   );
 }
-
-export default App;

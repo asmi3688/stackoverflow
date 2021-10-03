@@ -13,7 +13,6 @@ export default function MainContent({ history }) {
         const { data: responseData } = questionListResponse
         setQuestionList(responseData.items)
     }
-
     useEffect(() => {
         getQuestionList();
     }, [])
@@ -33,8 +32,8 @@ export default function MainContent({ history }) {
                                 <div className="col-lg-offset-5">Loading...</div>
                         }
                     </div>
-                    <div className="col-lg-3">
-
+                    <div className="col-lg-3 noPadding asideBar">
+                        <img src="/images/aside.JPG" className="col-lg-12 noPadding asideImg" />
                     </div>
                 </div>
             </div>

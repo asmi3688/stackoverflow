@@ -1,3 +1,16 @@
+.header .headerImg{
+    height:55px;
+}
+.footer{
+    margin-bottom: 0px;
+    margin-top: 3200px;
+}
+.asideBar{
+    margin-top:20px;
+}
+.asideImg{
+    width:300px
+}
 .mainHeader{
     height:150px;
     padding-left: 0!important;   

@@ -58,7 +58,7 @@ export default function MainContent({ history }) {
                         <div className="col-lg-12 questionPanel">
                             <div className="col-lg-2 profileImageBox">
                                 <div className="col-lg-12 profileImage">
-                                    <img className="image" src={userData.owner.profile_image} />
+                                    <img className="image" src={userData.owner.profile_image || "https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg"} />
                                 </div>
                             </div>
                             <div className="col-lg-10 profileTitle">

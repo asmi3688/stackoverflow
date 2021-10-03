@@ -1,7 +1,7 @@
 import Communities from "./Communities"
 
 export default function Badges({ userData }) {
-    const badges = userData && userData.owner && userData.owner.badge_counts
+    const badges = userData.owner.badge_counts
     return (
         <div className="col-lg-12">
             <div className="col-lg-3">
